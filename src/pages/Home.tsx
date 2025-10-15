@@ -14,14 +14,7 @@ const Home: React.FC = () => {
 
   // Fetch posts on component mount
   useEffect(() => {
-    document.title = "MetaBlog - Home";
-    const metaDescription = document.querySelector('meta[name="description"]');
-    if (metaDescription) {
-      metaDescription.setAttribute(
-        "content",
-        "MetaBlog - Your source for technology news and articles"
-      );
-    }
+    
 
     fetchPosts();
   }, []);
@@ -43,7 +36,7 @@ const Home: React.FC = () => {
     }
   };
 
-  // Handle search with useCallback to prevent unnecessary re-renders
+  
   const handleSearch = useCallback(
     (query: string) => {
       setSearchQuery(query);
