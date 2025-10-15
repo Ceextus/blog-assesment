@@ -1,7 +1,7 @@
 // components/Navbar.tsx
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import ThemeToggle from "./ThemeToggle";
+
 
 const Navbar: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -49,7 +49,7 @@ const Navbar: React.FC = () => {
             </Link>
           </div>
 
-          {/* Search Icon & Theme Toggle */}
+         
           <div className="flex items-center space-x-3">
             
             {/* Mobile menu button */}
