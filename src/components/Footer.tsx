@@ -194,7 +194,7 @@ const Footer: React.FC = () => {
                 Meta<span className="text-blue-600">Blog</span>
               </p>
               <p className="text-xs text-gray-600 dark:text-gray-400">
-                © JS Template 2023. All Rights Reserved.
+                ©  All Rights Reserved.
               </p>
             </div>
           </div>
